@@ -63,7 +63,7 @@ namespace Beispiel2
                 }
                 else
                 {
-                    MessageBox.Show("Ernsthaft es sind nur Zahlen erlaubt ):´", "Falsch Eingabe!!!",
+                    MessageBox.Show("Es sind nur Zahlen erlaubt.", "Ungueltige Eingabe",
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Stop, MessageBoxDefaultButton.Button1,
                         MessageBoxOptions.DefaultDesktopOnly);
@@ -76,7 +76,7 @@ namespace Beispiel2
             }
 else
    {
-                    MessageBox.Show("Bitte eine Zahl eingeben!!!", "Falsche Eingabe!!!", MessageBoxButtons.OK,
+                    MessageBox.Show("Bitte eine Zahl eingeben.", "Ungueltige Eingabe", MessageBoxButtons.OK,
                                       MessageBoxIcon.Stop, MessageBoxDefaultButton.Button1,
                                       MessageBoxOptions.DefaultDesktopOnly);
                     return;
@@ -99,7 +99,7 @@ else
             { 
                 if (intErgebnis == intEingabeErgebnis)
                 {
-                    strText = "Wow clean man";
+                    strText = "Richtig berechnet.";
                     strCaption = "Ergebnis";
                     MessageBox.Show(strText, strCaption,
                         MessageBoxButtons.OK,
@@ -111,7 +111,7 @@ else
                 }
                 else
                 {
-                    strText = "Komplett Falsch, das richtige Ergebnis lautet eigentlich:  " + intErgebnis;
+                    strText = "Nicht korrekt. Das richtige Ergebnis lautet: " + intErgebnis;
                     strCaption = "Ergebnis";
                     MessageBox.Show(strText, strCaption,
                         MessageBoxButtons.OKCancel,
@@ -125,7 +125,7 @@ else
         
             else
             {
-                MessageBox.Show("Nur Zahlen erlaubt", "Falsche Eingabe!!!", MessageBoxButtons.OK,
+                MessageBox.Show("Nur Zahlen erlaubt.", "Ungueltige Eingabe", MessageBoxButtons.OK,
                                 MessageBoxIcon.Stop, MessageBoxDefaultButton.Button1,
                                 MessageBoxOptions.DefaultDesktopOnly);
                 return;
@@ -155,7 +155,7 @@ dblEingabeZahl1 = System.Convert.ToDouble(strEingabeZahl1);
                 }
                 else
                 {
-                    MessageBox.Show("Bitte eine zAhL eingeben!!!", "Falsche Eingabe!!!", MessageBoxButtons.OK,
+                    MessageBox.Show("Bitte eine Zahl eingeben.", "Ungueltige Eingabe", MessageBoxButtons.OK,
                   MessageBoxIcon.Stop, MessageBoxDefaultButton.Button1,
                   MessageBoxOptions.DefaultDesktopOnly);
                     return;
@@ -201,14 +201,14 @@ dblEingabeZahl1 = System.Convert.ToDouble(strEingabeZahl1);
                     }
                     else
                     {
-                        MessageBox.Show("Zahl2 darf keine 0 sein. Div durch 0 nicht erlaubt!", "Falsche Eingabe!!!", MessageBoxButtons.OK,
+                        MessageBox.Show("Zahl 2 darf nicht 0 sein. Division durch 0 ist nicht erlaubt.", "Ungueltige Eingabe", MessageBoxButtons.OK,
                                         MessageBoxIcon.Stop, MessageBoxDefaultButton.Button1,
                                         MessageBoxOptions.DefaultDesktopOnly);
                     }
                 }
                 else
                 {
-                    MessageBox.Show("Bitte eine zAhL eingeben!!!", "Falsche Eingabe!!!", MessageBoxButtons.OK,
+                    MessageBox.Show("Bitte eine Zahl eingeben.", "Ungueltige Eingabe", MessageBoxButtons.OK,
                                     MessageBoxIcon.Stop, MessageBoxDefaultButton.Button1,
                                     MessageBoxOptions.DefaultDesktopOnly);
                     return;

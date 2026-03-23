@@ -16,6 +16,28 @@
 packages/
 *.nupkg
 
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Local databases and dumps
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sql
+*.bak
+
+# Certificates and keys
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+
 # Logs
 *.log
 
